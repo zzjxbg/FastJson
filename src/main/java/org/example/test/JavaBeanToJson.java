@@ -26,6 +26,7 @@ public class JavaBeanToJson {
         //调用静态方法,传递要转换的对象即可
         String jsonString = JSON.toJSONString(student);
         System.out.println(jsonString);
+        //转后的结果仍是对象
         //{"age":20,"birthday":1626602364067,"email":"zs@sina.com","id":1,"name":"张三"}
     }
 }
