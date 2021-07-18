@@ -37,8 +37,11 @@ public class ListToJson {
         list.add(student2);
         //List集合序列化为Json格式字符串
         String jsonString = JSON.toJSONString(list);
-        System.out.println(jsonString);
         System.out.println(list);
+        //转前
+        //[Student(id=1, name=张三, age=20, email=zs@sina.com, birthday=Sun Jul 18 18:16:42 CST 2021),
+        // Student(id=2, name=李四, age=22, email=ls@126.com, birthday=Sun Jul 18 18:16:42 CST 2021)]
+        System.out.println(jsonString);
         //转后的结果是数组,数组的元素是对象
         //[{"age":20,"birthday":1626602122012,"email":"zs@sina.com","id":1,"name":"张三"},
         // {"age":22,"birthday":1626602122012,"email":"ls@126.com","id":2,"name":"李四"}]
