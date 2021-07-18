@@ -1,4 +1,4 @@
-package org.example.test;
+package org.example.serialization;
 
 import com.alibaba.fastjson.JSON;
 import org.example.pojo.Student;
